@@ -41,11 +41,11 @@ NeSy-Sepsis-Pipeline/
 ├── Embedding_Check.py             # Stage 5: Embedding validation & adjudication
 ├── Run_Fuzzy.py                   # Stage 6: Sugeno fuzzy compliance scoring
 │
-├── figures/
-│   ├── fig1_pipeline_overview.png       # End-to-end workflow diagram
-│   └── fig3_pipeline_architecture.png   # Detailed pipeline with numbers
+├── fig/
+│   ├── Intro_fig.png       # End-to-end workflow diagram
+│   └── Pipeline.png        # Detailed pipeline with numbers
 │
-├── output/                              # Pre-computed pipeline outputs
+├── NeSy_Output/                         # Pre-computed pipeline outputs
 │   ├── unique_strings.json              # 1,691 drug + 650 micro unique strings
 │   ├── regex_drug_map.json              # Regex drug classifications
 │   ├── regex_micro_map.json             # Regex microbiology classifications
