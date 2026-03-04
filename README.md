@@ -2,7 +2,10 @@
 
 > **This is a clinical insight generation pipeline, not an automated decision-making system.** Every compliance score produced by this pipeline is intended to inform healthcare professionals — never to replace clinical judgment.
 
-![Pipeline Overview](fig/Intro_fig.png)
+<p align="center">
+  <img src="fig/Intro_fig.png" alt="Pipeline Overview">
+</p>
+
 
 ## What This Pipeline Does
 
