@@ -1,0 +1,2631 @@
+{
+  "phase1_summary": {
+    "total_drugs": 1691,
+    "ground_truth": 1594,
+    "validated_non_other": 213,
+    "confirmed": 210,
+    "flagged": 3,
+    "skipped_other": 1478,
+    "confirmation_rate": 98.59
+  },
+  "thresholds": {
+    "antibiotic": 0.3206,
+    "vasopressor": 0.2263,
+    "iv_fluid": 0.3075
+  },
+  "calibration": {
+    "antibiotic": {
+      "count": 126,
+      "mean": 0.4844,
+      "std": 0.0819,
+      "min": 0.2282,
+      "max": 0.689,
+      "threshold": 0.3206
+    },
+    "vasopressor": {
+      "count": 7,
+      "mean": 0.4509,
+      "std": 0.1123,
+      "min": 0.2822,
+      "max": 0.6722,
+      "threshold": 0.2263
+    },
+    "iv_fluid": {
+      "count": 35,
+      "mean": 0.4087,
+      "std": 0.0506,
+      "min": 0.3502,
+      "max": 0.542,
+      "threshold": 0.3075
+    }
+  },
+  "phase2_adjudication_summary": {
+    "total": 97,
+    "regex_wins": 49,
+    "gemma_wins": 48,
+    "inconclusive": 0
+  },
+  "phase2_adjudication_details": [
+    {
+      "drug": "0.54% Sodium Chloride",
+      "regex": "iv_fluid",
+      "regex_sim": 0.391,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3910 >= threshold=0.3075"
+    },
+    {
+      "drug": "0.82% Sodium Chloride",
+      "regex": "iv_fluid",
+      "regex_sim": 0.3836,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3836 >= threshold=0.3075"
+    },
+    {
+      "drug": "0.9% Sodium Chl (Yellow CADD)",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "iv_fluid",
+      "gemma_sim": 0.349,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.3490 >= threshold=0.3075"
+    },
+    {
+      "drug": "1/2 NS",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "iv_fluid",
+      "gemma_sim": 0.3976,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.3976 >= threshold=0.3075"
+    },
+    {
+      "drug": "AMOXicillin Oral Susp.",
+      "regex": "antibiotic",
+      "regex_sim": 0.4565,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4565 >= threshold=0.3206"
+    },
+    {
+      "drug": "AMP",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.432,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4320 >= threshold=0.3206"
+    },
+    {
+      "drug": "Aminocap",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.5757,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5757 >= threshold=0.3206"
+    },
+    {
+      "drug": "Angiotensin II",
+      "regex": "vasopressor",
+      "regex_sim": 0.4308,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4308 >= threshold=0.2263"
+    },
+    {
+      "drug": "Argatroban",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4232,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4232 >= threshold=0.3206"
+    },
+    {
+      "drug": "Bictegrav-Emtricit-Tenofov Ala",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.33,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.3300 >= threshold=0.3206"
+    },
+    {
+      "drug": "CeFAZolin Desensitization",
+      "regex": "antibiotic",
+      "regex_sim": 0.4521,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4521 >= threshold=0.3206"
+    },
+    {
+      "drug": "Clarithromycin",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.5661,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5661 >= threshold=0.3206"
+    },
+    {
+      "drug": "D5 1/2NS",
+      "regex": "iv_fluid",
+      "regex_sim": 0.3519,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3519 >= threshold=0.3075"
+    },
+    {
+      "drug": "D5 1/4NS",
+      "regex": "iv_fluid",
+      "regex_sim": 0.3501,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3501 >= threshold=0.3075"
+    },
+    {
+      "drug": "D5LR",
+      "regex": "iv_fluid",
+      "regex_sim": 0.4567,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4567 >= threshold=0.3075"
+    },
+    {
+      "drug": "D5NS",
+      "regex": "iv_fluid",
+      "regex_sim": 0.4495,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4495 >= threshold=0.3075"
+    },
+    {
+      "drug": "D5W",
+      "regex": "iv_fluid",
+      "regex_sim": 0.5329,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5329 >= threshold=0.3075"
+    },
+    {
+      "drug": "D5W (EXCEL BAG)",
+      "regex": "iv_fluid",
+      "regex_sim": 0.4051,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4051 >= threshold=0.3075"
+    },
+    {
+      "drug": "DAPTOmycin",
+      "regex": "antibiotic",
+      "regex_sim": 0.4418,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4418 >= threshold=0.3206"
+    },
+    {
+      "drug": "Dextran 40 10% in NS",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "iv_fluid",
+      "gemma_sim": 0.321,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.3210 >= threshold=0.3075"
+    },
+    {
+      "drug": "Drotrecogin Alfa (Xigris)",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.3647,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.3647 >= threshold=0.3206"
+    },
+    {
+      "drug": "EPINEPHrine",
+      "regex": "vasopressor",
+      "regex_sim": 0.2504,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.2504 >= threshold=0.2263"
+    },
+    {
+      "drug": "EPINEPHrine (EpiPEN)",
+      "regex": "vasopressor",
+      "regex_sim": 0.3136,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3136 >= threshold=0.2263"
+    },
+    {
+      "drug": "EPINEPHrine (for dil 2mg/2mL 2mL",
+      "regex": "vasopressor",
+      "regex_sim": 0.4223,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4223 >= threshold=0.2263"
+    },
+    {
+      "drug": "EPINEPHrine (for dilution)",
+      "regex": "vasopressor",
+      "regex_sim": 0.3569,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3569 >= threshold=0.2263"
+    },
+    {
+      "drug": "EPINEPHrine Kit",
+      "regex": "vasopressor",
+      "regex_sim": 0.2819,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.2819 >= threshold=0.2263"
+    },
+    {
+      "drug": "Epinephrine",
+      "regex": "vasopressor",
+      "regex_sim": 0.5267,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5267 >= threshold=0.2263"
+    },
+    {
+      "drug": "Epinephrine 1:1000",
+      "regex": "vasopressor",
+      "regex_sim": 0.3791,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3791 >= threshold=0.2263"
+    },
+    {
+      "drug": "Erythromycin",
+      "regex": "antibiotic",
+      "regex_sim": 0.5052,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5052 >= threshold=0.3206"
+    },
+    {
+      "drug": "Erythromycin Ethylsuccinate Suspension",
+      "regex": "antibiotic",
+      "regex_sim": 0.4207,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4207 >= threshold=0.3206"
+    },
+    {
+      "drug": "Esmolol",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "vasopressor",
+      "gemma_sim": 0.5106,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5106 >= threshold=0.2263"
+    },
+    {
+      "drug": "Fluconazole",
+      "regex": "antibiotic",
+      "regex_sim": 0.5353,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5353 >= threshold=0.3206"
+    },
+    {
+      "drug": "Fosfomycin Tromethamine",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4079,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4079 >= threshold=0.3206"
+    },
+    {
+      "drug": "Furosemide in 0.9% Sodium Chloride",
+      "regex": "iv_fluid",
+      "regex_sim": 0.5053,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5053 >= threshold=0.3075"
+    },
+    {
+      "drug": "GammaGARD S/D",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4118,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4118 >= threshold=0.3206"
+    },
+    {
+      "drug": "GenTeal Severe",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4705,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4705 >= threshold=0.3206"
+    },
+    {
+      "drug": "HydrALAZINE",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4124,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4124 >= threshold=0.3206"
+    },
+    {
+      "drug": "Iso-Osmotic Dextrose",
+      "regex": "iv_fluid",
+      "regex_sim": 0.4779,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4779 >= threshold=0.3075"
+    },
+    {
+      "drug": "LaMICtaL XR",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4721,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4721 >= threshold=0.3206"
+    },
+    {
+      "drug": "Labetalol",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "vasopressor",
+      "gemma_sim": 0.4323,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4323 >= threshold=0.2263"
+    },
+    {
+      "drug": "LevETIRAcetam - STAT Dose",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.482,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4820 >= threshold=0.3206"
+    },
+    {
+      "drug": "MethIMAzole",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4942,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4942 >= threshold=0.3206"
+    },
+    {
+      "drug": "MetroNIDAZOLE",
+      "regex": "antibiotic",
+      "regex_sim": 0.3718,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3718 >= threshold=0.3206"
+    },
+    {
+      "drug": "Milrinone",
+      "regex": "vasopressor",
+      "regex_sim": 0.4652,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4652 >= threshold=0.2263"
+    },
+    {
+      "drug": "Milrinone Lactate",
+      "regex": "vasopressor",
+      "regex_sim": 0.4407,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4407 >= threshold=0.2263"
+    },
+    {
+      "drug": "Minocycline",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.5749,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5749 >= threshold=0.3206"
+    },
+    {
+      "drug": "Mult",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.5708,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5708 >= threshold=0.3206"
+    },
+    {
+      "drug": "NORepinephri 8mg/250mL 250mL BAG",
+      "regex": "vasopressor",
+      "regex_sim": 0.3285,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3285 >= threshold=0.2263"
+    },
+    {
+      "drug": "NS",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "iv_fluid",
+      "gemma_sim": 0.5187,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5187 >= threshold=0.3075"
+    },
+    {
+      "drug": "NS (Excel)",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "iv_fluid",
+      "gemma_sim": 0.4403,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4403 >= threshold=0.3075"
+    },
+    {
+      "drug": "NS (Glass Bottle)",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "iv_fluid",
+      "gemma_sim": 0.4578,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4578 >= threshold=0.3075"
+    },
+    {
+      "drug": "NS (Mini Bag Plus)",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "iv_fluid",
+      "gemma_sim": 0.4008,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4008 >= threshold=0.3075"
+    },
+    {
+      "drug": "NiCARdipine IV",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "vasopressor",
+      "gemma_sim": 0.4692,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4692 >= threshold=0.2263"
+    },
+    {
+      "drug": "Nitrofurantoin ",
+      "regex": "antibiotic",
+      "regex_sim": 0.464,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4640 >= threshold=0.3206"
+    },
+    {
+      "drug": "Nitrofurantoin (Macrodantin)",
+      "regex": "antibiotic",
+      "regex_sim": 0.4145,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4145 >= threshold=0.3206"
+    },
+    {
+      "drug": "Nitroprusside Sodium",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "vasopressor",
+      "gemma_sim": 0.4433,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4433 >= threshold=0.2263"
+    },
+    {
+      "drug": "Oxervate",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4926,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4926 >= threshold=0.3206"
+    },
+    {
+      "drug": "PHENYLEPHrin 50mg/250mL 250mL NS",
+      "regex": "vasopressor",
+      "regex_sim": 0.2022,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "gemma",
+      "reason": "regex_below_threshold: sim=0.2022 < threshold=0.2263"
+    },
+    {
+      "drug": "PHENYLEPHrin 60mg/250mL 250mL NS",
+      "regex": "vasopressor",
+      "regex_sim": 0.2049,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "gemma",
+      "reason": "regex_below_threshold: sim=0.2049 < threshold=0.2263"
+    },
+    {
+      "drug": "PHENYLEPHrine",
+      "regex": "vasopressor",
+      "regex_sim": 0.1515,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "gemma",
+      "reason": "regex_below_threshold: sim=0.1515 < threshold=0.2263"
+    },
+    {
+      "drug": "PHENYLEPHrine (QuVa)",
+      "regex": "vasopressor",
+      "regex_sim": 0.2572,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.2572 >= threshold=0.2263"
+    },
+    {
+      "drug": "PHENYLEPHrine (for 50mg/5mL VIAL",
+      "regex": "vasopressor",
+      "regex_sim": 0.3146,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3146 >= threshold=0.2263"
+    },
+    {
+      "drug": "PHENYLEPHrine (for dilution)",
+      "regex": "vasopressor",
+      "regex_sim": 0.2699,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.2699 >= threshold=0.2263"
+    },
+    {
+      "drug": "PHENYLephrine",
+      "regex": "vasopressor",
+      "regex_sim": 0.2749,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.2749 >= threshold=0.2263"
+    },
+    {
+      "drug": "PNEUMOcoccal Vac Polyvalent",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4108,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4108 >= threshold=0.3206"
+    },
+    {
+      "drug": "Pangestyme-EC",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4645,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4645 >= threshold=0.3206"
+    },
+    {
+      "drug": "Pentamidine Isethionate",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.3637,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.3637 >= threshold=0.3206"
+    },
+    {
+      "drug": "Phenylephrine",
+      "regex": "vasopressor",
+      "regex_sim": 0.4801,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4801 >= threshold=0.2263"
+    },
+    {
+      "drug": "Phenylephrine 2.5 % Ophth Soln",
+      "regex": "vasopressor",
+      "regex_sim": 0.4199,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4199 >= threshold=0.2263"
+    },
+    {
+      "drug": "PleTAL",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.5348,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5348 >= threshold=0.3206"
+    },
+    {
+      "drug": "Potassium Chl 20 mEq / 1000 mL NS",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "iv_fluid",
+      "gemma_sim": 0.3667,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.3667 >= threshold=0.3075"
+    },
+    {
+      "drug": "Potassium Chl 40 mEq / 1000 mL NS",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "iv_fluid",
+      "gemma_sim": 0.3661,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.3661 >= threshold=0.3075"
+    },
+    {
+      "drug": "Prismasate (B22 K4)",
+      "regex": "iv_fluid",
+      "regex_sim": 0.3972,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.3972 >= threshold=0.3075"
+    },
+    {
+      "drug": "Prismasate (B32 K2)",
+      "regex": "iv_fluid",
+      "regex_sim": 0.4351,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4351 >= threshold=0.3075"
+    },
+    {
+      "drug": "Racepinephrine",
+      "regex": "vasopressor",
+      "regex_sim": 0.4869,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4869 >= threshold=0.2263"
+    },
+    {
+      "drug": "RiTONAvir",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4637,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4637 >= threshold=0.3206"
+    },
+    {
+      "drug": "Rifaximin",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.5344,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5344 >= threshold=0.3206"
+    },
+    {
+      "drug": "Sodium Chloride",
+      "regex": "iv_fluid",
+      "regex_sim": 0.5582,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5582 >= threshold=0.3075"
+    },
+    {
+      "drug": "Sodium Chloride ",
+      "regex": "iv_fluid",
+      "regex_sim": 0.418,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4180 >= threshold=0.3075"
+    },
+    {
+      "drug": "SulfaSALAzine DR",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4459,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4459 >= threshold=0.3206"
+    },
+    {
+      "drug": "SulfaSALAzine_",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4964,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4964 >= threshold=0.3206"
+    },
+    {
+      "drug": "Tetracycline",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.5603,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5603 >= threshold=0.3206"
+    },
+    {
+      "drug": "Tobramycin Inhalation Soln",
+      "regex": "antibiotic",
+      "regex_sim": 0.5197,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5197 >= threshold=0.3206"
+    },
+    {
+      "drug": "ValACYclovir",
+      "regex": "antibiotic",
+      "regex_sim": 0.5358,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5358 >= threshold=0.3206"
+    },
+    {
+      "drug": "ValGANCIclovi",
+      "regex": "antibiotic",
+      "regex_sim": 0.4675,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4675 >= threshold=0.3206"
+    },
+    {
+      "drug": "ValGANCIclovir Oral Solution",
+      "regex": "antibiotic",
+      "regex_sim": 0.4867,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.4867 >= threshold=0.3206"
+    },
+    {
+      "drug": "Vancomycin Enema",
+      "regex": "antibiotic",
+      "regex_sim": 0.5475,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5475 >= threshold=0.3206"
+    },
+    {
+      "drug": "Vancomycin Oral Liquid",
+      "regex": "antibiotic",
+      "regex_sim": 0.556,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5560 >= threshold=0.3206"
+    },
+    {
+      "drug": "Vasopressin (for dilution)",
+      "regex": "vasopressor",
+      "regex_sim": 0.5998,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.5998 >= threshold=0.2263"
+    },
+    {
+      "drug": "Viokase 8",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.469,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4690 >= threshold=0.3206"
+    },
+    {
+      "drug": "Viokase-8",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.5619,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5619 >= threshold=0.3206"
+    },
+    {
+      "drug": "Viorele (28)",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4033,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4033 >= threshold=0.3206"
+    },
+    {
+      "drug": "quiniDINE Gluconate",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4746,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4746 >= threshold=0.3206"
+    },
+    {
+      "drug": "quiniDINE Gluconate E.R.",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.4286,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.4286 >= threshold=0.3206"
+    },
+    {
+      "drug": "quiniDINE Sulfate",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.5235,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5235 >= threshold=0.3206"
+    },
+    {
+      "drug": "rifAXIMin",
+      "regex": "other",
+      "regex_sim": null,
+      "gemma": "antibiotic",
+      "gemma_sim": 0.534,
+      "winner": "gemma",
+      "reason": "gemma_anchored: sim=0.5340 >= threshold=0.3206"
+    },
+    {
+      "drug": "sodium chloride",
+      "regex": "iv_fluid",
+      "regex_sim": 0.6446,
+      "gemma": "other",
+      "gemma_sim": null,
+      "winner": "regex",
+      "reason": "regex_anchored: sim=0.6446 >= threshold=0.3075"
+    }
+  ],
+  "phase1_confirmed": [
+    {
+      "drug": "DOBUTamine",
+      "gemma_category": "vasopressor",
+      "regex_category": "vasopressor",
+      "similarity": 0.2822,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Dextran 40 10% in NS",
+      "gemma_category": "iv_fluid",
+      "regex_category": "other",
+      "similarity": 0.321,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Bictegrav-Emtricit-Tenofov Ala",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.33,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ceftolozane-Tazobactam",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3486,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "0.9% Sodium Chl (Yellow CADD)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "other",
+      "similarity": 0.349,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CefTRIAXone",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3498,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin 25% (12.5g / 50mL)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3502,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin 5% (12.5g / 250mL)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3509,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "DOPamine",
+      "gemma_category": "vasopressor",
+      "regex_category": "vasopressor",
+      "similarity": 0.3545,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin 5% ",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3557,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Potassium Chl 40 mEq / 1000 mL D5 1/2 NS",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3616,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Potassium Chl 20 mEq / 1000 mL D5 1/2 NS",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3632,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Pentamidine Isethionate",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.3637,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Drotrecogin Alfa (Xigris)",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.3647,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin 25% ",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3661,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin 5% (25g / 500mL)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3661,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Potassium Chl 40 mEq / 1000 mL NS",
+      "gemma_category": "iv_fluid",
+      "regex_category": "other",
+      "similarity": 0.3661,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Potassium Chl 20 mEq / 1000 mL NS",
+      "gemma_category": "iv_fluid",
+      "regex_category": "other",
+      "similarity": 0.3667,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Potassium Chl 40 mEq / 1000 mL D5NS",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3682,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Nitrofurantoin Monohyd (MacroBID)",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3683,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ceftolozane-Tazobactam *NF*",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3693,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Potassium Chl 20 mEq / 1000 mL D5NS",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3698,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CeftriaXONE",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3705,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Gentamicin 2.5 mg/mL in Sodium Citrate 4%",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3707,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Potassium Chl 20 mEq / 1000 mL D5LR",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.372,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin ",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3775,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "0.9% Sodium Chloride (EXCEL BAG)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3804,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Sodium Chloride 0.9%",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3806,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin 5",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3808,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CeftriaXONE Desensitization",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3812,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "0.45 % Sodium Chloride",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3839,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "0.45% Sodium Chloride",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3848,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "0.83% Sodium Chloride",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3852,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "0.75% Sodium Chloride",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3872,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Cefpodoxime Proxetil",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3886,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Piperacillin-Tazobactam",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3889,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "MetRONIDAZOLE (FLagyl)",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3892,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Imipenem-Cilastatin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3896,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CefTRIAXone Graded Challenge",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.39,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Sodium Chloride 0.9%  (Mini Bag Plus)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.3909,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Piperacillin-Tazobactam Na",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.3955,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "*NF* Ceftaroline",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.397,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "1/2 NS",
+      "gemma_category": "iv_fluid",
+      "regex_category": "other",
+      "similarity": 0.3976,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "NS (Mini Bag Plus)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "other",
+      "similarity": 0.4008,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ceftolozane-tazobactam",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4011,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin 25%",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4026,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CeftazIDIME",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4031,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Viorele (28)",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4033,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin 5%",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4061,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Doxycycline Hyclate",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4062,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Nafcillin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4072,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Fosfomycin Tromethamine",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4079,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "PNEUMOcoccal Vac Polyvalent",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4108,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "GammaGARD S/D",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4118,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "0.9% Sodium Chloride (Mini Bag Plus)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4121,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Caspofungin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4124,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "HydrALAZINE",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4124,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Tigecycline",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4131,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "0.9% NaCl (EXCEL/ViaFLO BAG)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4135,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "*NF* Micafungin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4175,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Aztreonam",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4183,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin 5% (",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4199,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Plasma-Lyte A (pH 7.4)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4205,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vancomycin (0.5 mg/mL)-Heparin (100 units/mL) Lock",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4222,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Argatroban",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4232,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Piperacillin-Tazo Graded Challenge",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.424,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "0.9% Sodium Chloride",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4254,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vancomycin-Heparin Lock (For HD/Pheresis Catheters)",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4255,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Sulfamethoxazole-Trimethoprim",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4257,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "quiniDINE Gluconate E.R.",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4286,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ValGANCIclo",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4289,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vigamox",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.43,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Lactated Ringers",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4301,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "0.9 % Sodium Chloride",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4311,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ganciclovir",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4311,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "AMP",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.432,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Labetalol",
+      "gemma_category": "vasopressor",
+      "regex_category": "other",
+      "similarity": 0.4323,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "NS (0.9% NaCl)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4329,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ampicillin-Sulbactam",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4335,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CeFAZolin Graded Challenge",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.437,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CeFAZolin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4381,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "SulfADIAZINE",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4399,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Sulfameth/Trimethoprim",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4399,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "NS (Excel)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "other",
+      "similarity": 0.4403,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Neomycin-Polymyxin-Bacitracin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4411,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CefTAZidime 2mg/0.1mL",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4417,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Norepinephrine Bitartrate",
+      "gemma_category": "vasopressor",
+      "regex_category": "vasopressor",
+      "similarity": 0.4419,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vancomycin in Sodium Citrate 4%, ",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4423,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Nitroprusside Sodium",
+      "gemma_category": "vasopressor",
+      "regex_category": "other",
+      "similarity": 0.4433,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "SulfaSALAzine DR",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4459,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ValGANCIclovir ",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4471,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Sulfameth/Trimethoprim SS",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4506,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Neomycin/Polymyxin B Sulfate",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.451,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Sulfameth/Trimethoprim DS",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4514,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ValGANCIc",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4517,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Micafungin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.452,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Moxifloxacin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4525,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Sulfameth/Trimethoprim Suspension",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4531,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Amphotericin B Deoxycholate",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4532,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "NORepinephrine",
+      "gemma_category": "vasopressor",
+      "regex_category": "vasopressor",
+      "similarity": 0.4533,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ValGANCIcl",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4552,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Penicillin G Benzathine",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4553,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CefePIME",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4566,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "NS (Glass Bottle)",
+      "gemma_category": "iv_fluid",
+      "regex_category": "other",
+      "similarity": 0.4578,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ceftaroline",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4601,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "INV-Remdesivir",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4624,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "RiTONAvir",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4637,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Pangestyme-EC",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4645,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "NORepinephrine (in NS)",
+      "gemma_category": "vasopressor",
+      "regex_category": "vasopressor",
+      "similarity": 0.4655,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Remdesivir",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4685,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "DAPTOmycin-Heparin Lock",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.469,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Viokase 8",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.469,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "NiCARdipine IV",
+      "gemma_category": "vasopressor",
+      "regex_category": "other",
+      "similarity": 0.4692,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CefazoLIN",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.47,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "GenTeal Severe",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4705,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "LaMICtaL XR",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4721,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ValGANCIclov",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4732,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "quiniDINE Gluconate",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4746,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "*NF* Ertapenem Sodium",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4751,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Meropenem",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4751,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Fidaxomicin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4755,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vancomycin \u2013 Pharmacy to Dose (ID Consult ONLY)",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4764,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CefiderocoL *NF*",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4777,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vancomycin Desensitization",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4796,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Linezolid",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4811,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "LevETIRAcetam - STAT Dose",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.482,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "imipenem-cilastatin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4821,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin, Human",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4841,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "PlasmaLyte",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4849,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Gentamicin Intraventricular",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4851,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ceftaroline Graded Challenge",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4854,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Cefepime Graded Challenge",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4868,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Norepinephrine",
+      "gemma_category": "vasopressor",
+      "regex_category": "vasopressor",
+      "similarity": 0.4869,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vancomycin 1mg/0.1mL",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.487,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Meropenem Graded Challenge",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4873,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Linezolid Suspension",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4912,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ValGANCIclovir",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4923,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Oxervate",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4926,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "MethIMAzole",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4942,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Iso-Osmotic Sodium Chloride",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4953,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "SulfaSALAzine_",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.4964,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "LevoFLOXacin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4968,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Amoxicillin-Clavulanate Susp.",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.4986,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "LR",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.4987,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Acyclovir Sodium",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5022,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Voriconazole",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5039,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "CefTAZidime",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.505,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Amphotericin B",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5057,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ceFAZolin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5076,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Amoxicillin-Clavulanic Acid",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5081,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ertapenem Sodium",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5091,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Penicillin G K Graded Challenge",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5094,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Esmolol",
+      "gemma_category": "vasopressor",
+      "regex_category": "other",
+      "similarity": 0.5106,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "DiCLOXacillin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5121,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Clindamycin 1% Solution",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5123,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "RifAMPin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5126,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Cephalexin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5145,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ampicillin Desensitization",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5156,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "NS",
+      "gemma_category": "iv_fluid",
+      "regex_category": "other",
+      "similarity": 0.5187,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "quiniDINE Sulfate",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.5235,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Levofloxacin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.528,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vancomycin-Heparin Lock",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5296,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Albumin",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.5304,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "rifAXIMin",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.534,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Rifaximin",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.5344,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "PleTAL",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.5348,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ampicillin Graded Challenge",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5379,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ofloxacin  0.3%",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5385,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Azithromycin ",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.539,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "moxifloxacin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5392,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Isotonic Sodium Chloride",
+      "gemma_category": "iv_fluid",
+      "regex_category": "iv_fluid",
+      "similarity": 0.542,
+      "threshold": 0.3075,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Rifampin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5422,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Daptomycin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5444,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Penicillin G Potassium",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5481,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Acyclovir",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5488,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ambisome",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5498,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ciprofloxacin HCl",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5501,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Gentamicin - Dosing by pharmacy",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5505,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Clindamycin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5559,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Rifampin  Susp.",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5562,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Colistin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5572,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Penicillin V Potassium",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5583,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Tetracycline",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.5603,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Viokase-8",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.5619,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Clarithromycin",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.5661,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Tobramycin - Dosing by pharmacy",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5663,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ciprofloxacin IV",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5667,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Amikacin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5688,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ampicillin Sodium",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5694,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Tobramycin Sulfate",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5703,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Mult",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.5708,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "fidaxomicin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5712,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Azithromycin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5741,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Minocycline",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.5749,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Aminocap",
+      "gemma_category": "antibiotic",
+      "regex_category": "other",
+      "similarity": 0.5757,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Tobramycin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5846,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vancomycin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5864,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "cefiderocoL",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.5869,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Gentamicin Sulfate",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.605,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Amoxicillin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.6146,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ciprofloxacin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.6149,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ofloxacin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.6217,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Ampicillin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.6328,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "tobramycin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.6499,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vancomycin Antibiotic Lock",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.6509,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "vancomycin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.6528,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "omadacycline",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.6591,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Vasopressin",
+      "gemma_category": "vasopressor",
+      "regex_category": "vasopressor",
+      "similarity": 0.6722,
+      "threshold": 0.2263,
+      "status": "confirmed"
+    },
+    {
+      "drug": "Gentamicin",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.6758,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    },
+    {
+      "drug": "ertapenem",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.689,
+      "threshold": 0.3206,
+      "status": "confirmed"
+    }
+  ],
+  "phase1_flagged": [
+    {
+      "drug": "AZITHROMYCIN",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.2282,
+      "threshold": 0.3206,
+      "status": "flagged"
+    },
+    {
+      "drug": "VANCOMYCIN",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.272,
+      "threshold": 0.3206,
+      "status": "flagged"
+    },
+    {
+      "drug": "VALTREX",
+      "gemma_category": "antibiotic",
+      "regex_category": "antibiotic",
+      "similarity": 0.2897,
+      "threshold": 0.3206,
+      "status": "flagged"
+    }
+  ]
+}

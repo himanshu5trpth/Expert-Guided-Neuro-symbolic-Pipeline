@@ -1,0 +1,3832 @@
+{
+  "drugs": {
+    "total": 1691,
+    "agree": 1594,
+    "disagree": 97,
+    "agreement_rate": 94.26,
+    "gemma_only_catches": [
+      {
+        "drug": "LaMICtaL XR",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "PNEUMOcoccal Vac Polyvalent",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "rifAXIMin",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "1/2 NS",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "Tetracycline",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "GenTeal Severe",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Pentamidine Isethionate",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Viokase 8",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Nitroprusside Sodium",
+        "regex": "other",
+        "gemma": "vasopressor"
+      },
+      {
+        "drug": "0.9% Sodium Chl (Yellow CADD)",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "Viokase-8",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Viorele (28)",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Pangestyme-EC",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Esmolol",
+        "regex": "other",
+        "gemma": "vasopressor"
+      },
+      {
+        "drug": "AMP",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Aminocap",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "HydrALAZINE",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Drotrecogin Alfa (Xigris)",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "LevETIRAcetam - STAT Dose",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "SulfaSALAzine_",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "NS (Excel)",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "Clarithromycin",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Labetalol",
+        "regex": "other",
+        "gemma": "vasopressor"
+      },
+      {
+        "drug": "quiniDINE Gluconate",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Oxervate",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Minocycline",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "GammaGARD S/D",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Fosfomycin Tromethamine",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Rifaximin",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Potassium Chl 20 mEq / 1000 mL NS",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "SulfaSALAzine DR",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "quiniDINE Gluconate E.R.",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "MethIMAzole",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Argatroban",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "NS",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "RiTONAvir",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "quiniDINE Sulfate",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "NiCARdipine IV",
+        "regex": "other",
+        "gemma": "vasopressor"
+      },
+      {
+        "drug": "Mult",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "PleTAL",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Dextran 40 10% in NS",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "Bictegrav-Emtricit-Tenofov Ala",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "NS (Mini Bag Plus)",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "Potassium Chl 40 mEq / 1000 mL NS",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "NS (Glass Bottle)",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      }
+    ],
+    "regex_only_catches": [
+      {
+        "drug": "Vancomycin Enema",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "D5 1/2NS",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Phenylephrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "0.54% Sodium Chloride",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "D5W",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Milrinone",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "D5 1/4NS",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "PHENYLephrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "EPINEPHrine (for dilution)",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "PHENYLEPHrin 60mg/250mL 250mL NS",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Fluconazole",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "D5NS",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Racepinephrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Sodium Chloride",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Prismasate (B32 K2)",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Angiotensin II",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "PHENYLEPHrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "EPINEPHrine (EpiPEN)",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "ValACYclovir",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "ValGANCIclovi",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "Epinephrine 1:1000",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Sodium Chloride ",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Nitrofurantoin (Macrodantin)",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "NORepinephri 8mg/250mL 250mL BAG",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Iso-Osmotic Dextrose",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "DAPTOmycin",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "AMOXicillin Oral Susp.",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "Epinephrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Erythromycin",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "EPINEPHrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Phenylephrine 2.5 % Ophth Soln",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Erythromycin Ethylsuccinate Suspension",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "Prismasate (B22 K4)",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Nitrofurantoin ",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "Tobramycin Inhalation Soln",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "0.82% Sodium Chloride",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "PHENYLEPHrine (for 50mg/5mL VIAL",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Vasopressin (for dilution)",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Furosemide in 0.9% Sodium Chloride",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "ValGANCIclovir Oral Solution",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "EPINEPHrine (for dil 2mg/2mL 2mL",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "PHENYLEPHrine (for dilution)",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "D5LR",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "CeFAZolin Desensitization",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "PHENYLEPHrine (QuVa)",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Vancomycin Oral Liquid",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "EPINEPHrine Kit",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "PHENYLEPHrin 50mg/250mL 250mL NS",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "MetroNIDAZOLE",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "sodium chloride",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "D5W (EXCEL BAG)",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Milrinone Lactate",
+        "regex": "vasopressor",
+        "gemma": "other"
+      }
+    ],
+    "disagreements": [
+      {
+        "drug": "Vancomycin Enema",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "LaMICtaL XR",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "D5 1/2NS",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Phenylephrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "0.54% Sodium Chloride",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "D5W",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "PNEUMOcoccal Vac Polyvalent",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "rifAXIMin",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "1/2 NS",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "Tetracycline",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Milrinone",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "D5 1/4NS",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "PHENYLephrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "EPINEPHrine (for dilution)",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "GenTeal Severe",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Pentamidine Isethionate",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Viokase 8",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Nitroprusside Sodium",
+        "regex": "other",
+        "gemma": "vasopressor"
+      },
+      {
+        "drug": "PHENYLEPHrin 60mg/250mL 250mL NS",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Fluconazole",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "0.9% Sodium Chl (Yellow CADD)",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "D5NS",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Viokase-8",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Viorele (28)",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Racepinephrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Sodium Chloride",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Prismasate (B32 K2)",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Pangestyme-EC",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Angiotensin II",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Esmolol",
+        "regex": "other",
+        "gemma": "vasopressor"
+      },
+      {
+        "drug": "PHENYLEPHrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "AMP",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "EPINEPHrine (EpiPEN)",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "ValACYclovir",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "ValGANCIclovi",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "Epinephrine 1:1000",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Sodium Chloride ",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Nitrofurantoin (Macrodantin)",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "NORepinephri 8mg/250mL 250mL BAG",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Aminocap",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "HydrALAZINE",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Iso-Osmotic Dextrose",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "DAPTOmycin",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "AMOXicillin Oral Susp.",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "Drotrecogin Alfa (Xigris)",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Epinephrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Erythromycin",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "EPINEPHrine",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "LevETIRAcetam - STAT Dose",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Phenylephrine 2.5 % Ophth Soln",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Erythromycin Ethylsuccinate Suspension",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "Prismasate (B22 K4)",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Nitrofurantoin ",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "Tobramycin Inhalation Soln",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "SulfaSALAzine_",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "NS (Excel)",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "0.82% Sodium Chloride",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Clarithromycin",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Labetalol",
+        "regex": "other",
+        "gemma": "vasopressor"
+      },
+      {
+        "drug": "quiniDINE Gluconate",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Oxervate",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Minocycline",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "PHENYLEPHrine (for 50mg/5mL VIAL",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "GammaGARD S/D",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Fosfomycin Tromethamine",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Rifaximin",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Potassium Chl 20 mEq / 1000 mL NS",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "Vasopressin (for dilution)",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "SulfaSALAzine DR",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "quiniDINE Gluconate E.R.",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Furosemide in 0.9% Sodium Chloride",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "ValGANCIclovir Oral Solution",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "EPINEPHrine (for dil 2mg/2mL 2mL",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "MethIMAzole",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "PHENYLEPHrine (for dilution)",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "Argatroban",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "NS",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "D5LR",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "RiTONAvir",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "quiniDINE Sulfate",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "CeFAZolin Desensitization",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "PHENYLEPHrine (QuVa)",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "NiCARdipine IV",
+        "regex": "other",
+        "gemma": "vasopressor"
+      },
+      {
+        "drug": "Mult",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "PleTAL",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "Vancomycin Oral Liquid",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "Dextran 40 10% in NS",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "Bictegrav-Emtricit-Tenofov Ala",
+        "regex": "other",
+        "gemma": "antibiotic"
+      },
+      {
+        "drug": "EPINEPHrine Kit",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "PHENYLEPHrin 50mg/250mL 250mL NS",
+        "regex": "vasopressor",
+        "gemma": "other"
+      },
+      {
+        "drug": "NS (Mini Bag Plus)",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "Potassium Chl 40 mEq / 1000 mL NS",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "NS (Glass Bottle)",
+        "regex": "other",
+        "gemma": "iv_fluid"
+      },
+      {
+        "drug": "MetroNIDAZOLE",
+        "regex": "antibiotic",
+        "gemma": "other"
+      },
+      {
+        "drug": "sodium chloride",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "D5W (EXCEL BAG)",
+        "regex": "iv_fluid",
+        "gemma": "other"
+      },
+      {
+        "drug": "Milrinone Lactate",
+        "regex": "vasopressor",
+        "gemma": "other"
+      }
+    ],
+    "category_matrix": {
+      "antibiotic": {
+        "other": 15,
+        "antibiotic": 126
+      },
+      "other": {
+        "antibiotic": 32,
+        "other": 1426,
+        "iv_fluid": 9,
+        "vasopressor": 4
+      },
+      "iv_fluid": {
+        "other": 15,
+        "iv_fluid": 35
+      },
+      "vasopressor": {
+        "vasopressor": 7,
+        "other": 22
+      }
+    }
+  },
+  "micro": {
+    "total": 650,
+    "agree": 394,
+    "disagree": 256,
+    "agreement_rate": 60.62,
+    "bc_agree": 622,
+    "bc_disagree": 28,
+    "status_agree": 422,
+    "status_disagree": 228,
+    "disagreements": [
+      {
+        "combo": "PERITONEAL FLUID|BACTEROIDES FRAGILIS GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|CITROBACTER KOSERI",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|BETA STREPTOCOCCUS GROUP B",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|PREVOTELLA SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|ANAEROBIC GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|STAPH AUREUS COAG +",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "Blood (LYME)|UNKNOWN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "Mini-BAL|CITROBACTER KOSERI",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|ENTEROBACTER CLOACAE COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|GRAM NEGATIVE BACTERIA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|ENTEROBACTER AEROGENES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ASPIRATE|HAEMOPHILUS INFLUENZAE, BETA-LACTAMASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SPUTUM|CHRYSEOBACTERIUM INDOLOGENES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|GRAM POSITIVE COCCUS(COCCI)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|PROTEUS MIRABILIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SKIN SCRAPINGS|UNKNOWN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|CLOSTRIDIUM SPECIES NOT C. PERFRINGENS OR C. SEPTICUM",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|GRAM POSITIVE RODS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|GRAM POSITIVE COCCUS(COCCI)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BLOOD CULTURE|VIRIDANS STREPTOCOCCI",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "contaminant"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|EPICOCCUM SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|YEAST",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|BACILLUS SPECIES; NOT ANTHRACIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FOREIGN BODY|GRAM POSITIVE COCCUS(COCCI)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|KLEBSIELLA PNEUMONIAE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SPUTUM|ACHROMOBACTER SP.",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|PSEUDOMONAS AERUGINOSA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "DIALYSIS FLUID|ENTEROCOCCUS SP.",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|PRESUMPTIVE GARDNERELLA VAGINALIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BLOOD CULTURE|CANCELLED",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "URINE|BURKHOLDERIA CEPACIA GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|KLEBSIELLA PNEUMONIAE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|BACTEROIDES FRAGILIS GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "CSF;SPINAL FLUID|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|POSITIVE FOR CYTOMEGALOVIRUS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "Blood (CMV AB)|UNKNOWN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "ABSCESS|GRAM NEGATIVE ROD #2",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|FUSOBACTERIUM SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "PERITONEAL FLUID|CLOSTRIDIUM SPECIES NOT C. PERFRINGENS OR C. SEPTICUM",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "PLEURAL FLUID|BACILLUS SPECIES; NOT ANTHRACIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHIAL WASHINGS|GRAM NEGATIVE ROD #2",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|AFB GROWN IN CULTURE; ADDITIONAL INFORMATION TO FOLLOW",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "SPUTUM|GRAM NEGATIVE ROD #2",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|BACTEROIDES FRAGILIS GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|CANDIDA ALBICANS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|ENTEROBACTERIACEAE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|ESCHERICHIA COLI",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Influenza A/B by DFA|POSITIVE FOR INFLUENZA B VIRAL ANTIGEN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "STOOL|CANCELLED",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "BRONCHIAL WASHINGS|ACINETOBACTER BAUMANNII COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|ASPERGILLUS SP. NOT FUMIGATUS, FLAVUS OR NIGER",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|GRAM NEGATIVE ROD #1",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|GRAM POSITIVE COCCUS(COCCI)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|PRESUMPTIVE VEILLONELLA SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|GRAM NEGATIVE ROD #2",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|YEAST, PRESUMPTIVELY NOT C. ALBICANS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BLOOD CULTURE|CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "contaminant"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "PLEURAL FLUID|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|ASPERGILLUS TERREUS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|BETA STREPTOCOCCUS GROUP B",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Staph aureus swab|UNKNOWN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|CANDIDA KEFYR",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|HAEMOPHILUS INFLUENZAE, BETA-LACTAMASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "URINE|PROTEUS VULGARIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|ENTEROBACTER CLOACAE COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|ENTEROCOCCUS FAECALIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "FOREIGN BODY|ENTEROCOCCUS SP.",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|ANAEROBIC GRAM POSITIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|ESCHERICHIA COLI",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SWAB|HAFNIA ALVEI",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|PENICILLIUM SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|UNKNOWN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|PREVOTELLA SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|GRAM NEGATIVE ROD #2",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|BACTEROIDES FRAGILIS GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Rapid Respiratory Viral Screen & Culture|POSITIVE FOR PARAINFLUENZA TYPE 3",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "TISSUE|CANCELLED",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "Blood (EBV)|UNKNOWN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "FOOT CULTURE|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE,KIDNEY|MORGANELLA MORGANII",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|GRAM POSITIVE BACTERIA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FOREIGN BODY|YEAST, PRESUMPTIVELY NOT C. ALBICANS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|VIRUS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "PERITONEAL FLUID|YEAST",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|STAPHYLOCOCCUS SAPROPHYTICUS, PRESUMPTIVE IDENTIFICATION",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|MYCOBACTERIUM AVIUM COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|BETA STREPTOCOCCI, NOT GROUP A",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|ENTEROCOCCUS SP.",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|PROTEUS MIRABILIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|GRAM NEGATIVE ROD #3",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "PLEURAL FLUID|BACTEROIDES FRAGILIS GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "CATHETER TIP-IV|YEAST, PRESUMPTIVELY NOT C. ALBICANS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|PROTEUS VULGARIS GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|ACIDFAST BACILLI",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "STOOL|ADENOVIRUS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "DIALYSIS FLUID|PSEUDOMONAS AERUGINOSA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "CSF;SPINAL FLUID|CANCELLED",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "URINE|CITROBACTER KOSERI",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|CITROBACTER FREUNDII COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|PREVOTELLA SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "JOINT FLUID|BETA STREPTOCOCCUS GROUP G",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|GRAM NEGATIVE ROD #2",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "CATHETER TIP-IV|YEAST",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|PRESUMPTIVE STREPTOCOCCUS BOVIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|MOLD",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "PERITONEAL FLUID|YEAST, PRESUMPTIVELY NOT C. ALBICANS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|STENOTROPHOMONAS MALTOPHILIA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|YEAST",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|YEAST, PRESUMPTIVELY NOT C. ALBICANS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "PLEURAL FLUID|GRAM POSITIVE COCCUS(COCCI)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|KOCURIA ROSEA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Direct Antigen Test for Herpes Simplex Virus Types 1 & 2|POSITIVE FOR VARICELLA ZOSTER",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|ENTEROCOCCUS GALLINARUM",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SWAB|BACTEROIDES FRAGILIS GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|ENTEROBACTER CLOACAE COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|PROTEUS MIRABILIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|CITROBACTER SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHIAL WASHINGS|YEAST",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "JOINT FLUID|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FOREIGN BODY|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "CATHETER TIP-IV|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|BETA STREPTOCOCCUS GROUP B",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|YEAST, PRESUMPTIVELY NOT C. ALBICANS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|PSEUDOMONAS AERUGINOSA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Blood (Toxo)|UNKNOWN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "ABSCESS|GRAM POSITIVE COCCUS(COCCI)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "PERITONEAL FLUID|GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|CHRYSEOBACTERIUM INDOLOGENES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|CITROBACTER FREUNDII COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "STOOL|BLASTOCYSTIS HOMINIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|BETA STREPTOCOCCUS GROUP G",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|CANDIDA TROPICALIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|CANCELLED",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "BLOOD CULTURE|RESEMBLING MICROCOCCUS/STOMATOCOCCUS SPECIES",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "contaminant"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "FOREIGN BODY|ENTEROBACTER CLOACAE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|YEAST",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|STAPHYLOCOCCUS, COAGULASE NEGATIVE, PRESUMPTIVELY NOT S. SAPROPHYTICUS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|HAFNIA ALVEI",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|RHIZOPUS SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|BETA STREPTOCOCCUS GROUP B",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "BILE|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|PRESUMPTIVE CLOSTRIDIUM PERFRINGENS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|CITROBACTER FREUNDII COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|HAFNIA ALVEI",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|MORGANELLA MORGANII",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "MRSA SCREEN|UNKNOWN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Rapid Respiratory Viral Screen & Culture|POSITIVE FOR RESPIRATORY SYNCYTIAL VIRUS (RSV)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "TISSUE|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|SCOPULARIOPSIS SP.",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BLOOD CULTURE|LACTOBACILLUS RHAMNOSUS",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "contaminant"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SWAB|YEAST",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|ENTEROCOCCUS SP.",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|MORAXELLA CATARRHALIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHIAL BRUSH - PROTECTED|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|ENTEROBACTER CLOACAE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|YEAST, PRESUMPTIVELY NOT C. ALBICANS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|ENTEROBACTER CLOACAE COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|ENTEROCOCCUS FAECALIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|MORGANELLA MORGANII",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|SERRATIA MARCESCENS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|BETA STREPTOCOCCUS GROUP C",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|ACINETOBACTER BAUMANNII COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|NON-FERMENTER, NOT PSEUDOMONAS AERUGINOSA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|ANAEROBIC GRAM POSITIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BLOOD CULTURE|MICROCOCCUS/STOMATOCOCCUS SPECIES",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "contaminant"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "BILE|STENOTROPHOMONAS MALTOPHILIA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|ENTEROBACTER CLOACAE COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "ABSCESS|BACILLUS SPECIES; NOT ANTHRACIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|PRESUMPTIVE POSITIVE FOR LEGIONELLA SEROGROUP 1 ANTIGEN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "TISSUE|GEMELLA SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|ESCHERICHIA COLI",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "ABSCESS|YEAST",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|CANDIDA TROPICALIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BONE MARROW|CANCELLED",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "Mini-BAL|SERRATIA MARCESCENS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SWAB|BACILLUS SPECIES; NOT ANTHRACIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SKIN SCRAPINGS|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|ACINETOBACTER BAUMANNII COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE,KIDNEY|ENTEROBACTER CLOACAE COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Staph aureus swab|STAPH AUREUS COAG +",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "ABSCESS|BACTEROIDES FRAGILIS GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|YEAST, PRESUMPTIVELY NOT C. ALBICANS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|RHIZOPUS SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|PSEUDOMONAS AERUGINOSA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SEROLOGY/BLOOD|UNKNOWN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "TISSUE|GRAM POSITIVE RODS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|CUNNINGHAMELLA SP.",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|BURKHOLDERIA CEPACIA GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|PRESUMPTIVE STREPTOCOCCUS BOVIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SWAB|RAOULTELLA PLANTICOLA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Staph aureus swab|POSITIVE FOR METHICILLIN RESISTANT STAPH AUREUS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SPUTUM|YEAST",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|ENTEROBACTER CLOACAE COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|ENTEROBACTER AEROGENES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|STAPH AUREUS COAG +",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "Mini-BAL|PROTEUS MIRABILIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SPUTUM|ACINETOBACTER BAUMANNII",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|STREPTOCOCCUS MITIS/ORALIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BLOOD CULTURE|LACTOBACILLUS SPECIES",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "contaminant"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SPUTUM|PAECILOMYCES SPECIES",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "CATHETER TIP-IV|NON-FERMENTER, NOT PSEUDOMONAS AERUGINOSA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SKIN SCRAPINGS|HERPES SIMPLEX VIRUS TYPE 1",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|GRAM POSITIVE BACTERIA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FOREIGN BODY|PSEUDOMONAS AERUGINOSA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|GRAM NEGATIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHIAL WASHINGS|ACINETOBACTER BAUMANNII",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "PERITONEAL FLUID|GRAM POSITIVE COCCUS(COCCI)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "SWAB|GRAM POSITIVE RODS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|ANAEROBIC GRAM POSITIVE ROD(S)",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|GRAM POSITIVE BACTERIA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Direct Antigen Test for Herpes Simplex Virus Types 1 & 2|HERPES SIMPLEX VIRUS TYPE 1",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "PLEURAL FLUID|BURKHOLDERIA CEPACIA GROUP",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "STOOL|CLOSTRIDIUM DIFFICILE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|ASPERGILLUS FUMIGATUS COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHIAL WASHINGS|SERRATIA MARCESCENS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BLOOD CULTURE|STAPHYLOCOCCUS EPIDERMIDIS",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "contaminant"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|HERPES SIMPLEX VIRUS TYPE 1",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        }
+      },
+      {
+        "combo": "URINE|YEAST",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE,KIDNEY|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|CLOSTRIDIUM PERFRINGENS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SKIN SCRAPINGS|HERPES SIMPLEX VIRUS TYPE 2",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "PERITONEAL FLUID|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "STOOL|POSITIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BLOOD CULTURE|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": true,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "BRONCHOALVEOLAR LAVAGE|ACINETOBACTER BAUMANNII COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SPUTUM|CUNNINGHAMELLA SP.",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "ABSCESS|STAPHYLOCOCCUS, COAGULASE NEGATIVE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BRONCHIAL WASHINGS|ALCALIGENES FAECALIS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|ENTEROBACTER CLOACAE COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "TISSUE|CITROBACTER FREUNDII COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "SWAB|YEAST, PRESUMPTIVELY NOT C. ALBICANS",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "DIALYSIS FLUID|CANDIDA GLABRATA",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "FLUID,OTHER|ENTEROBACTER CLOACAE",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      },
+      {
+        "combo": "ABSCESS|UNKNOWN",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "no_growth"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "URINE|MORGANELLA MORGANII",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "BILE|ENTEROCOCCUS FAECIUM",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": false,
+          "status": "contaminant"
+        }
+      },
+      {
+        "combo": "Mini-BAL|ACINETOBACTER BAUMANNII COMPLEX",
+        "regex": {
+          "is_blood_culture": false,
+          "status": "pathogen"
+        },
+        "gemma": {
+          "is_blood_culture": true,
+          "status": "pathogen"
+        }
+      }
+    ]
+  }
+}

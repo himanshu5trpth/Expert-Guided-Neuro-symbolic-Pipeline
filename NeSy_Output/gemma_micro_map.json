@@ -1,0 +1,2602 @@
+{
+  "ABSCESS|AEROMONAS SPECIES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|ANAEROBIC GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|ANAEROBIC GRAM POSITIVE COCCUS(I)": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|ANAEROBIC GRAM POSITIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|BACILLUS SPECIES; NOT ANTHRACIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|BACTEROIDES FRAGILIS GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|BETA STREPTOCOCCUS GROUP A": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|BETA STREPTOCOCCUS GROUP B": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|CANDIDA ALBICANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|CANDIDA GLABRATA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|CANDIDA KRUSEI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|CITROBACTER FREUNDII COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|CITROBACTER SPECIES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|CLOSTRIDIUM PERFRINGENS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|CLOSTRIDIUM RAMOSUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|CLOSTRIDIUM SPECIES NOT C. PERFRINGENS OR C. SEPTICUM": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|ENTEROBACTER AEROGENES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|ENTEROCOCCUS FAECALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|ENTEROCOCCUS FAECIUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|FUSOBACTERIUM NUCLEATUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|FUSOBACTERIUM SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|GRAM NEGATIVE ROD #2": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|GRAM POSITIVE BACTERIA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|GRAM POSITIVE COCCUS(COCCI)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|KLEBSIELLA OXYTOCA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|KOCURIA ROSEA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|LACTOBACILLUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|MIXED BACTERIAL FLORA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|MYCOBACTERIUM TUBERCULOSIS COMPLEX": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|NOCARDIA NOVA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|PRESUMPTIVE CLOSTRIDIUM SEPTICUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|PREVOTELLA SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|RHIZOPUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|SERRATIA MARCESCENS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|STAPHYLOCOCCUS EPIDERMIDIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|STREPTOCOCCUS ANGINOSUS (MILLERI) GROUP": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ABSCESS|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|VIRIDANS STREPTOCOCCI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|YEAST": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ABSCESS|YEAST, PRESUMPTIVELY NOT C. ALBICANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ASPIRATE|HAEMOPHILUS INFLUENZAE, BETA-LACTAMASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ASPIRATE|MIXED BACTERIAL FLORA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "ASPIRATE|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "ASPIRATE|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BILE|BACTEROIDES FRAGILIS GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|BETA STREPTOCOCCUS GROUP B": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|CANDIDA ALBICANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|CANDIDA TROPICALIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|CLOSTRIDIUM PERFRINGENS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|ENTEROCOCCUS CASSELIFLAVUS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BILE|ENTEROCOCCUS FAECALIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|ENTEROCOCCUS FAECIUM": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BILE|MIXED BACTERIAL FLORA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|PRESUMPTIVE STREPTOCOCCUS BOVIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|STENOTROPHOMONAS MALTOPHILIA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BILE|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BILE|YEAST, PRESUMPTIVELY NOT C. ALBICANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|CANDIDA ALBICANS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|CANDIDA GLABRATA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|CANDIDA PARAPSILOSIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|CANDIDA TROPICALIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|CRYPTOCOCCUS NEOFORMANS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|ENTEROCOCCUS FAECIUM": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|ESCHERICHIA COLI": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|GRAM POSITIVE COCCUS(COCCI)": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|STAPH AUREUS COAG +": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|UNKNOWN": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)|YEAST": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE - NEONATE|UNKNOWN": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "BLOOD CULTURE|ACINETOBACTER BAUMANNII": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|ACINETOBACTER BAUMANNII COMPLEX": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|AEROCOCCUS SPECIES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|AEROMONAS HYDROPHILA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|ANAEROBIC GRAM POSITIVE ROD(S)": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|BACILLUS CEREUS/THURINGIENSIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|BACILLUS SPECIES; NOT ANTHRACIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|BACTEROIDES FRAGILIS GROUP": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|BETA STREPTOCOCCUS GROUP A": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|BETA STREPTOCOCCUS GROUP B": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|BETA STREPTOCOCCUS GROUP G": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CANCELLED": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "BLOOD CULTURE|CANDIDA ALBICANS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CANDIDA DUBLINIENSIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CANDIDA GLABRATA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CANDIDA PARAPSILOSIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CANDIDA TROPICALIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CHRYSEOBACTERIUM INDOLOGENES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CITROBACTER FREUNDII COMPLEX": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CLOSTRIDIUM PERFRINGENS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CLOSTRIDIUM SPECIES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|CORYNEBACTERIUM STRIATUM": {
+    "is_blood_culture": true,
+    "status": "contaminant"
+  },
+  "BLOOD CULTURE|CRYPTOCOCCUS NEOFORMANS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|ENTEROBACTER AEROGENES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|ENTEROCOCCUS FAECALIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|ENTEROCOCCUS FAECIUM": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|ENTEROCOCCUS SP.": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|ESCHERICHIA COLI": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|FUSOBACTERIUM NUCLEATUM": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|FUSOBACTERIUM SPECIES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|GEMELLA SPECIES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|GRAM POSITIVE COCCUS(COCCI)": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|GRAM POSITIVE RODS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|HAFNIA ALVEI": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|KLEBSIELLA (RAOULTELLA) PLANTICOLA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|KLEBSIELLA OXYTOCA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|LACTOBACILLUS RHAMNOSUS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|LACTOBACILLUS SPECIES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|MICROCOCCUS/STOMATOCOCCUS SPECIES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|MORGANELLA MORGANII": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|NEISSERIA GONORRHOEAE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|NON-FERMENTER, NOT PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|PANTOEA (ENTEROBACTER) AGGLOMERANS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|PANTOEA SPECIES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|PRESUMPTIVE VEILLONELLA SPECIES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|PREVOTELLA SPECIES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|PROTEUS MIRABILIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|PSEUDOMONAS FLUORESCENS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|RESEMBLING MICROCOCCUS/STOMATOCOCCUS SPECIES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|SERRATIA MARCESCENS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|SPHINGOMONAS PAUCIMOBILIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STAPH AUREUS COAG +": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STAPHYLOCOCCUS CAPRAE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STAPHYLOCOCCUS EPIDERMIDIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STAPHYLOCOCCUS HAEMOLYTICUS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STAPHYLOCOCCUS LENTUS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STAPHYLOCOCCUS LUGDUNENSIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STAPHYLOCOCCUS PSEUDINTERMEDIUS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STENOTROPHOMONAS MALTOPHILIA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STREPTOCOCCUS ANGINOSUS (MILLERI) GROUP": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STREPTOCOCCUS GALLOLYTICUS SSP. PASTEURIANUS (STREPTOCOCCUS BOVIS)": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STREPTOCOCCUS GORDONII": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STREPTOCOCCUS MITIS/ORALIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STREPTOCOCCUS PNEUMONIAE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|STREPTOCOCCUS PORCINUS/PSEUDOPORCINUS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|UNKNOWN": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "BLOOD CULTURE|VIRIDANS STREPTOCOCCI": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BLOOD CULTURE|YEAST, PRESUMPTIVELY NOT C. ALBICANS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "BONE MARROW - CYTOGENETICS|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BONE MARROW|CANCELLED": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BONE MARROW|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BRONCHIAL BRUSH - PROTECTED|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHIAL BRUSH - PROTECTED|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BRONCHIAL WASHINGS|ACINETOBACTER BAUMANNII": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHIAL WASHINGS|ACINETOBACTER BAUMANNII COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHIAL WASHINGS|ALCALIGENES FAECALIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHIAL WASHINGS|CANDIDA ALBICANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHIAL WASHINGS|CITROBACTER KOSERI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHIAL WASHINGS|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHIAL WASHINGS|GRAM NEGATIVE ROD #2": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHIAL WASHINGS|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHIAL WASHINGS|LEGIONELLA PNEUMOPHILA, GROUP 1": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHIAL WASHINGS|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHIAL WASHINGS|SERRATIA MARCESCENS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHIAL WASHINGS|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHIAL WASHINGS|STENOTROPHOMONAS MALTOPHILIA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHIAL WASHINGS|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BRONCHIAL WASHINGS|YEAST": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|ACINETOBACTER BAUMANNII COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|ACINETOBACTER LWOFFII": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|AFB GROWN IN CULTURE; ADDITIONAL INFORMATION TO FOLLOW": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BRONCHOALVEOLAR LAVAGE|ASPERGILLUS FUMIGATUS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|ASPERGILLUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|BACILLUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|BETA STREPTOCOCCUS GROUP B": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|BURKHOLDERIA CEPACIA GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|CANDIDA ALBICANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|CANDIDA DUBLINIENSIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|CANDIDA GLABRATA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|CHRYSEOBACTERIUM INDOLOGENES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|CITROBACTER KOSERI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|CORYNEBACTERIUM STRIATUM": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|CRYPTOCOCCUS NEOFORMANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|CUNNINGHAMELLA SP.": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|ENTEROBACTER AEROGENES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|ENTEROCOCCUS FAECIUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|EPICOCCUM SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|GRAM NEGATIVE ROD #2": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|HERPES SIMPLEX VIRUS TYPE 1": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BRONCHOALVEOLAR LAVAGE|KLEBSIELLA OXYTOCA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|LEGIONELLA PNEUMOPHILA ": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|LEGIONELLA SPECIES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|MYCOBACTERIUM AVIUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|MYCOBACTERIUM GORDONAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|POSITIVE FOR CYTOMEGALOVIRUS": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BRONCHOALVEOLAR LAVAGE|POSITIVE FOR PNEUMOCYSTIS JIROVECII (CARINII)": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|PROTEUS MIRABILIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|PSEUDOMONAS OLEOVORANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|RHIZOPUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|SCOPULARIOPSIS SP.": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "BRONCHOALVEOLAR LAVAGE|SERRATIA MARCESCENS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|STENOTROPHOMONAS MALTOPHILIA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|STREPTOCOCCUS PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "BRONCHOALVEOLAR LAVAGE|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BRONCHOALVEOLAR LAVAGE|VIRUS": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "BRONCHOALVEOLAR LAVAGE|YEAST": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "Blood (CMV AB)|UNKNOWN": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "Blood (EBV)|UNKNOWN": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "Blood (LYME)|UNKNOWN": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "Blood (Toxo)|UNKNOWN": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "CATHETER TIP-IV|CANDIDA ALBICANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|CANDIDA GLABRATA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|CANDIDA PARAPSILOSIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|CANDIDA TROPICALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|ENTEROCOCCUS FAECALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|MIXED BACTERIAL FLORA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "CATHETER TIP-IV|NON-FERMENTER, NOT PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "CATHETER TIP-IV|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|SERRATIA MARCESCENS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|STAPHYLOCOCCUS EPIDERMIDIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "CATHETER TIP-IV|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "CATHETER TIP-IV|STENOTROPHOMONAS MALTOPHILIA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CATHETER TIP-IV|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "CATHETER TIP-IV|YEAST": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "CATHETER TIP-IV|YEAST, PRESUMPTIVELY NOT C. ALBICANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "CORNEAL EYE SCRAPINGS|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "CRE Screen|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "CSF;SPINAL FLUID|CANCELLED": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "CSF;SPINAL FLUID|CANDIDA PARAPSILOSIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CSF;SPINAL FLUID|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "CSF;SPINAL FLUID|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "CSF;SPINAL FLUID|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "DIALYSIS FLUID|CANDIDA GLABRATA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "DIALYSIS FLUID|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "DIALYSIS FLUID|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "DIALYSIS FLUID|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "DIRECT ANTIGEN TEST FOR VARICELLA-ZOSTER VIRUS|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "Direct Antigen Test for Herpes Simplex Virus Types 1 & 2|HERPES SIMPLEX VIRUS TYPE 1": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "Direct Antigen Test for Herpes Simplex Virus Types 1 & 2|POSITIVE FOR VARICELLA ZOSTER": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "Direct Antigen Test for Herpes Simplex Virus Types 1 & 2|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "EAR|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "EYE|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|BURKHOLDERIA CEPACIA GROUP": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|CANDIDA ALBICANS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|CANDIDA DUBLINIENSIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|CANDIDA GLABRATA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|CANDIDA TROPICALIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|ENTEROCOCCUS CASSELIFLAVUS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|ENTEROCOCCUS FAECIUM": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|ENTEROCOCCUS SP.": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|ESCHERICHIA COLI": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|GAMMA(I.E. NON-HEMOLYTIC) STREPTOCOCCUS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|GRAM POSITIVE RODS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|LACTOBACILLUS SPECIES": {
+    "is_blood_culture": true,
+    "status": "contaminant"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|STAPH AUREUS COAG +": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|STREPTOCOCCUS ANGINOSUS (MILLERI) GROUP": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID RECEIVED IN BLOOD CULTURE BOTTLES|UNKNOWN": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "FLUID,OTHER|ANAEROBIC GRAM POSITIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FLUID,OTHER|BACTEROIDES FRAGILIS GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FLUID,OTHER|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FLUID,OTHER|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|ENTEROCOCCUS FAECALIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|ENTEROCOCCUS GALLINARUM": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|ESCHERICHIA COLI": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FLUID,OTHER|GRAM POSITIVE COCCUS(COCCI)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FLUID,OTHER|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|MIXED BACTERIAL FLORA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FLUID,OTHER|MORGANELLA MORGANII": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "FLUID,OTHER|MYCOBACTERIUM TUBERCULOSIS COMPLEX": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|PROPIONIBACTERIUM ACNES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FLUID,OTHER|PROTEUS MIRABILIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|SERRATIA MARCESCENS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|STAPH AUREUS COAG +": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FLUID,OTHER|STREPTOCOCCUS ANGINOSUS (MILLERI) GROUP": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "FLUID,OTHER|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "FLUID,OTHER|YEAST": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FLUID,OTHER|YEAST, PRESUMPTIVELY NOT C. ALBICANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FOOT CULTURE|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FOOT CULTURE|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "FOREIGN BODY|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FOREIGN BODY|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FOREIGN BODY|GRAM POSITIVE COCCUS(COCCI)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FOREIGN BODY|MIXED BACTERIAL FLORA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FOREIGN BODY|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FOREIGN BODY|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "FOREIGN BODY|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "FOREIGN BODY|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "FOREIGN BODY|YEAST, PRESUMPTIVELY NOT C. ALBICANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "Foreign Body - Sonication Culture|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "Foreign Body - Sonication Culture|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "IMMUNOLOGY|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "Immunology (CMV)|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "Influenza A/B by DFA|POSITIVE FOR INFLUENZA B VIRAL ANTIGEN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "Influenza A/B by DFA|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "JOINT FLUID|BETA STREPTOCOCCUS GROUP G": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "JOINT FLUID|KLEBSIELLA OXYTOCA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "JOINT FLUID|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "JOINT FLUID|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "JOINT FLUID|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "JOINT FLUID|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "MRSA SCREEN|POSITIVE FOR METHICILLIN RESISTANT STAPH AUREUS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "MRSA SCREEN|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "MRSA SCREEN|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "Mini-BAL|ACINETOBACTER BAUMANNII COMPLEX": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|AFB GROWN IN CULTURE; ADDITIONAL INFORMATION TO FOLLOW": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "Mini-BAL|BETA STREPTOCOCCUS GROUP B": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|CITROBACTER KOSERI": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)": {
+    "is_blood_culture": true,
+    "status": "contaminant"
+  },
+  "Mini-BAL|ENTEROBACTER AEROGENES": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|ESCHERICHIA COLI": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|GRAM NEGATIVE ROD #2": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "Mini-BAL|GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "Mini-BAL|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|MORAXELLA CATARRHALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "Mini-BAL|MYCOBACTERIUM AVIUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "Mini-BAL|PANTOEA SPECIES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "Mini-BAL|PROTEUS MIRABILIS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|SERRATIA MARCESCENS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|STAPH AUREUS COAG +": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|STENOTROPHOMONAS MALTOPHILIA": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Mini-BAL|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "Mini-BAL|YEAST": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|BACTEROIDES FRAGILIS GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PERITONEAL FLUID|CANDIDA ALBICANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|CANDIDA GLABRATA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|CANDIDA LUSITANIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|CANDIDA TROPICALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|CLOSTRIDIUM SPECIES NOT C. PERFRINGENS OR C. SEPTICUM": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PERITONEAL FLUID|CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PERITONEAL FLUID|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|ENTEROCOCCUS FAECALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|ENTEROCOCCUS FAECIUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PERITONEAL FLUID|GRAM POSITIVE COCCUS(COCCI)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PERITONEAL FLUID|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|LACTOBACILLUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PERITONEAL FLUID|MIXED BACTERIAL FLORA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PERITONEAL FLUID|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PERITONEAL FLUID|STENOTROPHOMONAS MALTOPHILIA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|STREPTOCOCCUS PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PERITONEAL FLUID|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "PERITONEAL FLUID|VIRIDANS STREPTOCOCCI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PERITONEAL FLUID|YEAST": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PERITONEAL FLUID|YEAST, PRESUMPTIVELY NOT C. ALBICANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PLEURAL FLUID|BACILLUS SPECIES; NOT ANTHRACIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PLEURAL FLUID|BACTEROIDES FRAGILIS GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PLEURAL FLUID|BURKHOLDERIA CEPACIA GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PLEURAL FLUID|CANDIDA ALBICANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PLEURAL FLUID|CANDIDA DUBLINIENSIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PLEURAL FLUID|CANDIDA GLABRATA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PLEURAL FLUID|CANDIDA KRUSEI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PLEURAL FLUID|CANDIDA LUSITANIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PLEURAL FLUID|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PLEURAL FLUID|GRAM POSITIVE COCCUS(COCCI)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PLEURAL FLUID|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PLEURAL FLUID|MIXED BACTERIAL FLORA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PLEURAL FLUID|MYCOBACTERIUM TUBERCULOSIS COMPLEX": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PLEURAL FLUID|PROPIONIBACTERIUM ACNES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PLEURAL FLUID|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PLEURAL FLUID|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "PLEURAL FLUID|STREPTOCOCCUS ANGINOSUS (MILLERI) GROUP": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "PLEURAL FLUID|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "PROSTHETIC JOINT FLUID|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "RAPID RESPIRATORY VIRAL ANTIGEN TEST|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "Rapid Respiratory Viral Screen & Culture|POSITIVE FOR PARAINFLUENZA TYPE 3": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "Rapid Respiratory Viral Screen & Culture|POSITIVE FOR RESPIRATORY SYNCYTIAL VIRUS (RSV)": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "Rapid Respiratory Viral Screen & Culture|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "SEROLOGY/BLOOD|UNKNOWN": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "SKIN SCRAPINGS|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SKIN SCRAPINGS|HERPES SIMPLEX VIRUS TYPE 1": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SKIN SCRAPINGS|HERPES SIMPLEX VIRUS TYPE 2": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SKIN SCRAPINGS|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|ACHROMOBACTER SP.": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|ACIDFAST BACILLI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|ACINETOBACTER BAUMANNII": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|ACINETOBACTER BAUMANNII COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|AEROMONAS HYDROPHILA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|ASPERGILLUS FUMIGATUS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|ASPERGILLUS FUMIGATUS COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|ASPERGILLUS NIGER": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|ASPERGILLUS SP. NOT FUMIGATUS, FLAVUS OR NIGER": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|ASPERGILLUS TERREUS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|BACILLUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|BACILLUS SPECIES; NOT ANTHRACIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|BETA STREPTOCOCCI, NOT GROUP A": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|BETA STREPTOCOCCUS GROUP B": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|BURKHOLDERIA CEPACIA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|CANCELLED": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "SPUTUM|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|CANDIDA GLABRATA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|CANDIDA KRUSEI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|CANDIDA TROPICALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|CHRYSEOBACTERIUM INDOLOGENES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|CITROBACTER FREUNDII COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|CITROBACTER KOSERI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|CITROBACTER SEDLAKII": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|CUNNINGHAMELLA SP.": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|ENTEROBACTER AEROGENES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|ENTEROBACTERIACEAE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|GRAM NEGATIVE ROD #1": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|GRAM NEGATIVE ROD #2": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|GRAM NEGATIVE ROD #3": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|HAEMOPHILUS INFLUENZAE, BETA-LACTAMASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|HAFNIA ALVEI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|KLEBSIELLA (RAOULTELLA) PLANTICOLA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|KLEBSIELLA OXYTOCA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|LEGIONELLA PNEUMOPHILA, GROUP 1": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|MOLD": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|MORAXELLA CATARRHALIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|MYCOBACTERIUM AVIUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|MYCOBACTERIUM AVIUM COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|MYCOBACTERIUM TUBERCULOSIS COMPLEX": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|NON-FERMENTER, NOT PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|PAECILOMYCES SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|PENICILLIUM SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|POSITIVE FOR M. TUBERCULOSIS BY MTD": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|PROTEUS MIRABILIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|PROTEUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|PROTEUS VULGARIS GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SPUTUM|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|PSEUDOMONAS STUTZERI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|RHIZOPUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|SERRATIA MARCESCENS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|SERRATIA SPECIES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|STENOTROPHOMONAS MALTOPHILIA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|STREPTOCOCCUS PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SPUTUM|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "SPUTUM|YEAST": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "STOOL|ADENOVIRUS": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "STOOL|BLASTOCYSTIS HOMINIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "STOOL|CAMPYLOBACTER JEJUNI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "STOOL|CANCELLED": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "STOOL|CLOSTRIDIUM DIFFICILE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "STOOL|MYCOBACTERIUM KANSASII": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "STOOL|NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "STOOL|POSITIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "STOOL|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "SWAB|ASPERGILLUS FUMIGATUS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|BACILLUS SPECIES; NOT ANTHRACIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|BACTEROIDES FRAGILIS GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|BETA STREPTOCOCCUS GROUP A": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|BETA STREPTOCOCCUS GROUP B": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|BETA STREPTOCOCCUS GROUP C": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|BETA STREPTOCOCCUS GROUP G": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|CANDIDA ALBICANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|CANDIDA GLABRATA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|CANDIDA TROPICALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|CHLAMYDIA TRACHOMATIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|CITROBACTER KOSERI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|CITROBACTER SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|ENTEROCOCCUS FAECALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|ENTEROCOCCUS FAECIUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|ENTEROCOCCUS GALLINARUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|GRAM POSITIVE RODS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|HAFNIA ALVEI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|HERPES SIMPLEX VIRUS TYPE 1": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|HERPES SIMPLEX VIRUS TYPE 2": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|KLEBSIELLA OXYTOCA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|LACTOBACILLUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|MIXED BACTERIAL FLORA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|MORGANELLA MORGANII": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|PRESUMPTIVE CLOSTRIDIUM PERFRINGENS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|PRESUMPTIVE VEILLONELLA SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|PREVOTELLA SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|RAOULTELLA PLANTICOLA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|SERRATIA MARCESCENS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|STAPHYLOCOCCUS EPIDERMIDIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|STAPHYLOCOCCUS LUGDUNENSIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|STREPTOCOCCUS ANGINOSUS (MILLERI) GROUP": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "SWAB|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|VIRIDANS STREPTOCOCCI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|YEAST": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "SWAB|YEAST, PRESUMPTIVELY NOT C. ALBICANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "Staph aureus swab|POSITIVE FOR METHICILLIN RESISTANT STAPH AUREUS": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Staph aureus swab|STAPH AUREUS COAG +": {
+    "is_blood_culture": true,
+    "status": "pathogen"
+  },
+  "Staph aureus swab|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "Stem Cell - Blood Culture|UNKNOWN": {
+    "is_blood_culture": true,
+    "status": "no_growth"
+  },
+  "THROAT CULTURE|BETA STREPTOCOCCUS GROUP B": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "THROAT CULTURE|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "THROAT FOR STREP|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "TISSUE|ACINETOBACTER BAUMANNII COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|ANAEROBIC GRAM POSITIVE COCCUS(I)": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|ANAEROBIC GRAM POSITIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|BACTEROIDES FRAGILIS GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|BETA STREPTOCOCCUS GROUP B": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|BETA STREPTOCOCCUS GROUP C": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|BETA STREPTOCOCCUS GROUP G": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|CANCELLED": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "TISSUE|CANDIDA ALBICANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|CANDIDA PARAPSILOSIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|CANDIDA TROPICALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|CITROBACTER FREUNDII COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|CITROBACTER SEDLAKII": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|CLOSTRIDIUM PERFRINGENS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|ENTEROCOCCUS FAECALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|ENTEROCOCCUS FAECIUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|GEMELLA SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|GRAM POSITIVE BACTERIA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|GRAM POSITIVE COCCUS(COCCI)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|GRAM POSITIVE RODS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|KLEBSIELLA OXYTOCA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|LACTOBACILLUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|MICROCOCCUS/STOMATOCOCCUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|MIXED BACTERIAL FLORA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|MYCOBACTERIUM AVIUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|MYCOBACTERIUM TUBERCULOSIS COMPLEX": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|PRESUMPTIVE VEILLONELLA SPECIES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|PREVOTELLA SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|PROPIONIBACTERIUM ACNES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|PROTEUS MIRABILIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|SERRATIA MARCESCENS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|STAPHYLOCOCCUS EPIDERMIDIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|STAPHYLOCOCCUS LUGDUNENSIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|STENOTROPHOMONAS MALTOPHILIA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|STREPTOCOCCUS ANGINOSUS (MILLERI) GROUP": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|STREPTOCOCCUS GORDONII": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|STREPTOCOCCUS MITIS/ORALIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|STREPTOCOCCUS SALIVARIUS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "TISSUE|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "TISSUE|VIRIDANS STREPTOCOCCI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|YEAST": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "TISSUE|YEAST, PRESUMPTIVELY NOT C. ALBICANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE,KIDNEY|AEROCOCCUS VIRIDANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE,KIDNEY|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE,KIDNEY|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE,KIDNEY|ENTEROCOCCUS FAECALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE,KIDNEY|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE,KIDNEY|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE,KIDNEY|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE,KIDNEY|MORGANELLA MORGANII": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE,KIDNEY|PROTEUS MIRABILIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE,KIDNEY|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE,KIDNEY|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "URINE|BETA STREPTOCOCCUS GROUP B": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|BURKHOLDERIA CEPACIA GROUP": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|CANDIDA ALBICANS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|CANDIDA GLABRATA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|CANDIDA KEFYR": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|CANDIDA KRUSEI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|CANDIDA TROPICALIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|CITROBACTER FREUNDII COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|CITROBACTER KOSERI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|ENTEROBACTER AEROGENES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|ENTEROBACTER CLOACAE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|ENTEROBACTER CLOACAE COMPLEX": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|ENTEROCOCCUS FAECALIS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|ENTEROCOCCUS FAECIUM": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|ENTEROCOCCUS SP.": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|ESCHERICHIA COLI": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|GRAM NEGATIVE BACTERIA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|GRAM NEGATIVE ROD #2": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|GRAM NEGATIVE ROD(S)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|GRAM POSITIVE BACTERIA": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|GRAM POSITIVE COCCUS(COCCI)": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|GRAM POSITIVE RODS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|HAFNIA ALVEI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|KLEBSIELLA OXYTOCA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|KLEBSIELLA PNEUMONIAE": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|LACTOBACILLUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|MORGANELLA MORGANII": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|PRESUMPTIVE GARDNERELLA VAGINALIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|PRESUMPTIVE POSITIVE FOR LEGIONELLA SEROGROUP 1 ANTIGEN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "URINE|PRESUMPTIVE STREPTOCOCCUS BOVIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|PROBABLE ENTEROCOCCUS": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|PROTEUS MIRABILIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|PROTEUS VULGARIS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|PSEUDOMONAS AERUGINOSA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|SERRATIA MARCESCENS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|STAPH AUREUS COAG +": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|STAPHYLOCOCCUS SAPROPHYTICUS, PRESUMPTIVE IDENTIFICATION": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|STAPHYLOCOCCUS SPECIES": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|STAPHYLOCOCCUS, COAGULASE NEGATIVE": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|STAPHYLOCOCCUS, COAGULASE NEGATIVE, PRESUMPTIVELY NOT S. SAPROPHYTICUS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|STENOTROPHOMONAS MALTOPHILIA": {
+    "is_blood_culture": false,
+    "status": "pathogen"
+  },
+  "URINE|UNKNOWN": {
+    "is_blood_culture": false,
+    "status": "no_growth"
+  },
+  "URINE|VIRIDANS STREPTOCOCCI": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|YEAST": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  },
+  "URINE|YEAST, PRESUMPTIVELY NOT C. ALBICANS": {
+    "is_blood_culture": false,
+    "status": "contaminant"
+  }
+}
