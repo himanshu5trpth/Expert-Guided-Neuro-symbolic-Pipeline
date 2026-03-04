@@ -66,7 +66,10 @@ NeSy-Sepsis-Pipeline/
 
 The pipeline runs sequentially. Each stage produces outputs consumed by the next. **SME consultation points** are marked explicitly — these are where a domain expert reviews intermediate results before proceeding.
 
-![Detailed Pipeline Architecture](fig/Pipeline.png)
+<p align="center">
+  <img src="fig/Pipeline.png" alt="Detailed Pipeline Architecture">
+</p>
+
 
 ### Stage 1: Cohort Extraction — `Crop_Mimic.py`
 
