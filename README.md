@@ -124,7 +124,7 @@ Draws a statistically powered random sample from the full cohort. The fixed seed
 | **Parameters** | `SAMPLE_SIZE = 2000`, `RANDOM_SEED = 55` |
 
 ```bash
-python pipeline/3_Sample_Random.py
+python pipeline/Sample_Random.py
 ```
 
 **Result:** 2,000 patients → 2,438 sepsis episodes (some patients had multiple hospitalizations). The cohort exceeds minimum sample sizes for Cohen's Kappa (76.9×), McNemar's test (5.2×), and fuzzy membership estimation (10.2×).
