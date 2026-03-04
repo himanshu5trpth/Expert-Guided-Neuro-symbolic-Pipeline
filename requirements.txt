@@ -1,0 +1,8 @@
+# Python 3.11
+# Dependencies for the NeSy Sepsis Pipeline
+
+numpy==2.4.2
+pandas==2.4.2
+tqdm==4.67.1
+llama-cpp-python==0.3.16    # Required only for Stages 4 and 5 (MedGemma inference)
+matplotlib==3.10.8          # Required only for generating figures
