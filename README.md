@@ -34,18 +34,16 @@ NeSy-Sepsis-Pipeline/
 │
 ├── README.md
 ├── requirements.txt
+├── Crop_Mimic.py                  # Stage 1: Cohort extraction
+├── Group_Patient.py               # Stage 2: Episode-centric restructuring
+├── Sample_Random.py               # Stage 3: Reproducible random sampling
+├── Semantic_Normalization.py      # Stage 4: Regex + MedGemma classification
+├── Embedding_Check.py             # Stage 5: Embedding validation & adjudication
+├── Run_Fuzzy.py                   # Stage 6: Sugeno fuzzy compliance scoring
 │
 ├── figures/
 │   ├── fig1_pipeline_overview.png       # End-to-end workflow diagram
 │   └── fig3_pipeline_architecture.png   # Detailed pipeline with numbers
-│
-├── pipeline/                            # Core pipeline scripts (run in order)
-│   ├── 1_Crop_Mimic.py                  # Stage 1: Cohort extraction
-│   ├── 2_Group_Patient.py               # Stage 2: Episode-centric restructuring
-│   ├── 3_Sample_Random.py               # Stage 3: Reproducible random sampling
-│   ├── 4_Semantic_Normalization.py       # Stage 4: Regex + MedGemma classification
-│   ├── 5_Embedding_Check.py             # Stage 5: Embedding validation & adjudication
-│   └── 6_Run_Fuzzy.py                   # Stage 6: Sugeno fuzzy compliance scoring
 │
 ├── output/                              # Pre-computed pipeline outputs
 │   ├── unique_strings.json              # 1,691 drug + 650 micro unique strings
@@ -54,8 +52,7 @@ NeSy-Sepsis-Pipeline/
 │   ├── gemma_drug_map.json              # MedGemma drug classifications
 │   ├── gemma_micro_map.json             # MedGemma microbiology classifications
 │   ├── validation_report.json           # Inter-system agreement analysis
-│   ├── embedding_validation_report.json # Embedding validation + adjudication
-│   └── fuzzy_compliance_results.csv     # Final per-episode compliance scores
+│   └── embedding_validation_report.json # Embedding validation + adjudication
 │
 └── medgemma-4b-it-Q4_K_S.gguf          # MedGemma model (download separately)
 ```
@@ -68,7 +65,7 @@ The pipeline runs sequentially. Each stage produces outputs consumed by the next
 
 ![Detailed Pipeline Architecture](fig/Pipeline.png)
 
-### Stage 1: Cohort Extraction — `1_Crop_Mimic.py`
+### Stage 1: Cohort Extraction — `Crop_Mimic.py`
 
 Identifies all sepsis patients from raw MIMIC-IV using ICD-9/10 diagnosis codes and extracts only the relevant tables for this cohort.
 
@@ -79,14 +76,14 @@ Identifies all sepsis patients from raw MIMIC-IV using ICD-9/10 diagnosis codes 
 | **Key Logic** | ICD-9: `038.*`, `995.91`, `995.92`, `785.52`; ICD-10: `A40`, `A41`, `R65.20`, `R65.21` |
 
 ```bash
-python pipeline/1_Crop_Mimic.py
+python pipeline/Crop_Mimic.py
 ```
 
 **Result:** 17,926 unique sepsis patients across 22,363 hospitalizations identified and extracted.
 
 ---
 
-### Stage 2: Episode-Centric Restructuring — `2_Group_Patient.py`
+### Stage 2: Episode-Centric Restructuring — `Group_Patient.py`
 
 Transforms the relational MIMIC-IV structure into a patient/episode folder hierarchy. Each sepsis episode (hadm_id) gets its own folder with seven standardized files.
 
@@ -105,12 +102,12 @@ Each episode folder contains:
 - `inputs.csv` — IV fluids and vasopressors (Rules 5, 6)
 
 ```bash
-python pipeline/2_Group_Patient.py
+python pipeline/Group_Patient.py
 ```
 
 ---
 
-### Stage 3: Reproducible Random Sampling — `3_Sample_Random.py`
+### Stage 3: Reproducible Random Sampling — `Sample_Random.py`
 
 Draws a statistically powered random sample from the full cohort. The fixed seed ensures exact reproducibility.
 
@@ -128,7 +125,7 @@ python pipeline/3_Sample_Random.py
 
 ---
 
-### Stage 4: Semantic Normalization — `4_Semantic_Normalization.py`
+### Stage 4: Semantic Normalization — `Semantic_Normalization.py`
 
 The core neuro-symbolic stage. Extracts all unique drug and microbiology strings across the cohort, then classifies them using two complementary systems:
 
@@ -148,30 +145,14 @@ The core neuro-symbolic stage. Extracts all unique drug and microbiology strings
 | **Output** | Per-episode `normalized_events_regex.json` and `normalized_events_gemma.json` |
 
 ```bash
-python pipeline/4_Semantic_Normalization.py
+python pipeline/Semantic_Normalization.py
 ```
 
 **Requires:** `llama-cpp-python` with the MedGemma GGUF model file placed at the repository root.
 
 ---
 
-### ⚕️ SME Consultation Point 1: Review Classification Outputs
-
-**Before proceeding to Stage 5**, a subject matter expert should review:
-
-- **`validation_report.json`** — The 97 drug disagreements and microbiology discrepancies
-- **Category distributions** — Do the antibiotic/vasopressor/IV fluid counts look clinically reasonable?
-- **Edge cases** — Are there drugs misclassified due to formulation context (e.g., Vancomycin Oral should not count as systemic antibiotic for SSC compliance)?
-
-In our study, SME consultation at this stage produced these critical inputs:
-1. Vancomycin Oral Liquid and Vancomycin Enema → reclassified as `other` (not systemic antibiotics)
-2. Only IV/IM antibiotic routes count toward SSC compliance
-3. Coagulase-negative Staphylococcus → `pathogen` in ICU populations (immunocompromised context)
-4. Viridans streptococci in blood cultures → `pathogen`
-
----
-
-### Stage 5: Embedding Validation & Adjudication — `5_Embedding_Check.py`
+### Stage 5: Embedding Validation & Adjudication — `Embedding_Check.py`
 
 Uses MedGemma's embedding space as an independent semantic reference to validate classifications and resolve disagreements.
 
@@ -187,14 +168,14 @@ Uses MedGemma's embedding space as an independent semantic reference to validate
 | **Output** | `./NeSy_Output/embedding_validation_report.json` |
 
 ```bash
-python pipeline/5_Embedding_Check.py
+python pipeline/Embedding_Check.py
 ```
 
 **Result:** 210/213 confirmed (98.59%), 3 flagged (ALL-CAPS tokenizer artifacts). Adjudication: 49 regex wins, 48 MedGemma wins — confirming complementary error profiles.
 
 ---
 
-### ⚕️ SME Consultation Point 2: Validate Before Fuzzy Scoring
+### ⚕️ SME Consultation Point 1: Validate Before Fuzzy Scoring
 
 **Before proceeding to Stage 6**, a subject matter expert should review:
 
@@ -202,14 +183,9 @@ python pipeline/5_Embedding_Check.py
 - **Adjudication results** — Do the 97 resolved disagreements look clinically sound?
 - **Fuzzy parameters** — Review and approve the membership function parameters (σ values, rule weights, priority ordering) that will drive compliance scoring
 
-In our study, SME consultation at this stage established:
-1. Gaussian membership functions (reflecting gradual clinical transitions, not sharp boundaries)
-2. Rule priority ordering: R3 > R2 > R5 > R6 > R1 = R4 = R7 = R8
-3. σ = 30 minutes for timing-based Hour-1 rules (treatment at 90 min → µ = 0.61; at 120 min → µ = 0.13)
-
 ---
 
-### Stage 6: Fuzzy Compliance Assessment — `6_Run_Fuzzy.py`
+### Stage 6: Fuzzy Compliance Assessment — `Run_Fuzzy.py`
 
 Builds a single consensus classification map (agreed + embedding-validated + SME overrides), then evaluates all 2,438 episodes through a Sugeno fuzzy inference system encoding eight SSC bundle rules.
 
@@ -224,14 +200,14 @@ Builds a single consensus classification map (agreed + embedding-validated + SME
 | **Output** | `./NeSy_Output/fuzzy_compliance_results.csv` — One row per episode, 50 columns |
 
 ```bash
-python pipeline/6_Run_Fuzzy.py
+python pipeline/Run_Fuzzy.py
 ```
 
 The output CSV contains per-episode: compliance score (0–1), all eight rule scores, raw measurements, applicability flags, missing data indicators, ICU length of stay, and worst-performing rule identification.
 
 ---
 
-### ⚕️ SME Consultation Point 3: Interpret Results
+### ⚕️ SME Consultation Point 2: Interpret Results
 
 **After Stage 6**, the compliance scores and clinical insights are presented to domain experts for interpretation and validation. This is where the pipeline delivers its value — the numbers become actionable only through clinical interpretation.
 
@@ -261,7 +237,6 @@ The `output/` directory contains all intermediate and final outputs from our pip
 | `gemma_micro_map.json` | MedGemma microbiology classifications | 650 entries |
 | `validation_report.json` | Inter-system agreement + disagreement details | 97 drug disagreements |
 | `embedding_validation_report.json` | Phase 1 validation + Phase 2 adjudication | 210 confirmed, 3 flagged |
-| `fuzzy_compliance_results.csv` | Final per-episode compliance scores | 2,438 episodes |
 
 ---
 
