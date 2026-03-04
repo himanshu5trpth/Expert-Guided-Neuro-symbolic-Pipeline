@@ -2,7 +2,7 @@
 
 > **This is a clinical insight generation pipeline, not an automated decision-making system.** Every compliance score produced by this pipeline is intended to inform healthcare professionals — never to replace clinical judgment.
 
-![Pipeline Overview](figures/fig1_pipeline_overview.png)
+![Pipeline Overview](fig/Intro_fig.png)
 
 ## What This Pipeline Does
 
@@ -66,7 +66,7 @@ NeSy-Sepsis-Pipeline/
 
 The pipeline runs sequentially. Each stage produces outputs consumed by the next. **SME consultation points** are marked explicitly — these are where a domain expert reviews intermediate results before proceeding.
 
-![Detailed Pipeline Architecture](figures/fig3_pipeline_architecture.png)
+![Detailed Pipeline Architecture](fig/Pipeline.png)
 
 ### Stage 1: Cohort Extraction — `1_Crop_Mimic.py`
 
